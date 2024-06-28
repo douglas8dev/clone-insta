@@ -1,0 +1,30 @@
+body {
+  background: #fafafa;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.conteudoLateralDireita,
+.conteudoLateralEsquerda,
+.conteudoCentral {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.conteudoLateralEsquerda {
+  display: flex;
+  min-width: 20vw;
+}
+
+.conteudoLateralDireita {
+ 
+}
+
+.conteudoCentral {
+  width:65vw;
+}
